@@ -1,8 +1,76 @@
-# Lab: 10 Items or Less
-## (Chapter 4 - Arrays)
+# Chapter 4 - Arrays A
+## Part A : Code Commenting Exercise
+
+## Introduction
+
+This exercise is designed to help you understand every line of code by writing comments. Each line of code and annotation has a purpose, and by documenting it, you will deepen your understanding of Java and best coding practices. You will write comments
+for all classes and test classes in `parta`
+
+## Instructions
+
+Look in the package `com.codedifferentlt.labs.partA`
+
+1. **Understand Before Commenting**: Before you start, read through the code. If there are lines of code or annotations you don't understand, research or ask questions to clarify. The goal is to genuinely understand the purpose and function of each line.
+
+2. **Comments**: Write a comment for each line of code and annotation in the provided file. Your comments should be succinct but explanatory enough that someone new to Java can understand what's happening.
+
+  - For example, if you see:
+    ```java
+    import java.util.Scanner;
+    ```
+    Your comment might be:
+    ```java
+    // Importing the Scanner class from the Java utility package to take user input.
+    ```
+
+3. **Annotations**: If you come across any annotations, ensure you understand their purpose and document it accordingly.
+
+  - For instance:
+    ```java
+    @Override
+    ```
+    Your comment can be:
+    ```java
+    // @Override is an annotation indicating the following method is intended to override a method in a superclass.
+    ```
+
+4. **Avoid Stating the Obvious**: While we want you to comment on each line, avoid redundant comments that only state the obvious.
+
+  - Not so good:
+    ```java
+    int count = 0;  // Declare integer variable count and set it to 0.
+    ```
+
+  - Better:
+    ```java
+    int count = 0;  // Initializing a counter variable.
+    ```
+
+5. **Use Multi-Line Comments for Blocks**: If a block of code (like a for-loop or if-statement) is doing one single task, use a multi-line comment to describe the task rather than commenting on each line individually.
+
+  - Example:
+    ```java
+    /*
+     * This loop iterates through the array and prints each element.
+     */
+    for (int i = 0; i < array.length; i++) {
+        System.out.println(array[i]);
+    }
+    ```
+
+6. **Review**: After commenting, read through the code again. Ensure that your comments provide a clear understanding and that there aren't any lines left uncommented.
+
+7. **Discuss**: Pair up with a classmate. Exchange your commented files and discuss the comments. This peer review is a valuable opportunity to learn from different perspectives and interpretations.
+
+## Conclusion
+
+Commenting is not just for documentation but also an invaluable tool for understanding and collaboration. By diving deep into each line of code, you're enhancing your foundational knowledge, ensuring that as you progress, you're building on a solid base.
+
+## Part B Lab: 10 Items or Less
+
 
 ## Objective:
-Build a Shopping Cart Simulator using Java with the Maven build tool, an object-oriented approach, and Test-Driven Development (TDD) principles using JUnit 5.
+Build a Shopping Cart Simulator using Java with the Maven build tool, an object-oriented approach, and Test-Driven Development (TDD) principles using JUnit 5. In the `partb` package
 
 ### 1. Setting Up the Base Classes:
 Create two main classes:
